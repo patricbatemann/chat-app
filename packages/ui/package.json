@@ -1,0 +1,24 @@
+{
+  "name": "@smart-assistant/ui",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.tsx",
+  "exports": {
+    "./styles.css": "./src/styles.css",
+    ".": "./src/index.tsx"
+  },
+  "dependencies": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "tailwindcss": "^4"
+  },
+  "scripts": {
+    "lint": "eslint src/**",
+    "build": "true"
+  },
+  "devDependencies": {
+    "@smart-assistant/config": "*",
+    "eslint": "^9",
+    "typescript": "^5"
+  }
+}
